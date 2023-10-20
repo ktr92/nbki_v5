@@ -1,0 +1,12 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 2H43V0H6V2ZM49 54V6H47V54H49ZM2 55V6H0V55H2ZM6 61H54V59H6V61ZM0 55C0 58.3137 2.68629 61 6 61V59C3.79086 59 2 57.2091 2 55H0ZM47 54C47 57.866 50.134 61 54 61V59C51.2386 59 49 56.7614 49 54H47ZM43 2C45.2091 2 47 3.79086 47 6H49C49 2.68629 46.3137 0 43 0V2ZM6 0C2.68629 0 0 2.68629 0 6H2C2 3.79086 3.79086 2 6 2V0Z" fill="#7B7794"/>
+<line x1="22" y1="48" x2="9" y2="48" stroke="#7B7794" stroke-width="2" stroke-linecap="round"/>
+<circle cx="30.5" cy="48.5" r="2.5" fill="#7B7794"/>
+<circle cx="39.5" cy="48.5" r="2.5" fill="#7B7794"/>
+<line x1="41" y1="39" x2="9" y2="39" stroke="#7B7794" stroke-width="2" stroke-linecap="round"/>
+<line x1="41" y1="31" x2="9" y2="31" stroke="#7B7794" stroke-width="2" stroke-linecap="round"/>
+<line x1="41" y1="23" x2="31" y2="23" stroke="#7B7794" stroke-width="2" stroke-linecap="round"/>
+<line x1="41" y1="15" x2="31" y2="15" stroke="#7B7794" stroke-width="2" stroke-linecap="round"/>
+<rect x="9" y="9" width="14" height="14" rx="2" stroke="#7B7794" stroke-width="2"/>
+<path d="M48 24H56C58.2091 24 60 25.7909 60 28V54C60 57.3137 57.3137 60 54 60C50.6863 60 48 57.3137 48 54V24Z" stroke="#7B7794" stroke-width="2"/>
+</svg>

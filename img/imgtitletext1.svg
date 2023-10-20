@@ -1,0 +1,13 @@
+<svg width="81" height="101" viewBox="0 0 81 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M76 0H24C21.2386 0 19 2.23858 19 5V72C19 74.7614 21.2386 77 24 77H76C78.7614 77 81 74.7614 81 72V5C81 2.23858 78.7614 0 76 0Z" fill="#4563FF"/>
+<path d="M70 5H20C16.6863 5 14 7.68629 14 11V76C14 79.3137 16.6863 82 20 82H70C73.3137 82 76 79.3137 76 76V11C76 7.68629 73.3137 5 70 5Z" fill="#4563FF" stroke="white" stroke-width="2"/>
+<path d="M70 6H18C15.2386 6 13 8.23858 13 11V78C13 80.7614 15.2386 83 18 83H70C72.7614 83 75 80.7614 75 78V11C75 8.23858 72.7614 6 70 6Z" fill="white" stroke="#4563FF" stroke-width="2"/>
+<line x1="22" y1="37" x2="67.25" y2="37" stroke="#4563FF" stroke-width="2" stroke-linecap="round"/>
+<line x1="22" y1="27" x2="67.25" y2="27" stroke="#4563FF" stroke-width="2" stroke-linecap="round"/>
+<line x1="22" y1="17" x2="67.25" y2="17" stroke="#4563FF" stroke-width="2" stroke-linecap="round"/>
+<line x1="22" y1="47" x2="49.25" y2="47" stroke="#4563FF" stroke-width="2" stroke-linecap="round"/>
+<path d="M35.0972 82.1463C35.0972 91.562 27.4643 99.1949 18.0486 99.1949C8.63292 99.1949 1 91.562 1 82.1463C1 72.7306 8.63292 65.0977 18.0486 65.0977C27.4643 65.0977 35.0972 72.7306 35.0972 82.1463Z" fill="white" stroke="#4563FF" stroke-width="2"/>
+<path d="M27.4652 75.084L15.6944 90.7784L7.84717 82.9312" stroke="#4563FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="66.5" cy="74.5" r="2.5" fill="#FF0029"/>
+<circle cx="58.5" cy="74.5" r="2.5" fill="#4563FF"/>
+</svg>
