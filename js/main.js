@@ -93,6 +93,23 @@ $(document).ready(function () {
       cssEase: "linear",
     })
   })
+  $("[data-slider='infslider_v5']").each(function () {
+    $(this).slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      dots: true,
+      responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
+    })
+  })
 
   $(".js-reviews").each(function () {
     $(this).slick({
