@@ -521,9 +521,27 @@ $(document).ready(function () {
     /* $('.s-overlay').toggleClass('active_headertop'); */
   })
 
+  $(function () {
+    $("[data-tabsheader]").on(
+      "click",
+      "[data-tabsbutton]:not(.active)",
+      function () {
+        $(this)
+          .addClass("active")
+          .siblings()
+          .removeClass("active")
+          .closest("[data-tabs]")
+          .find("[data-tabscontent]")
+          .removeClass("active")
+          .eq($(this).index())
+          .addClass("active")
+      }
+    )
+  })
+
   $(document).mouseup(function (e) {
     var container = $(".mainmenu.active")
-    var button = $(".js-menu.active")
+    var button = $(".js-menu")
     // if the target of the click isn't the container nor a descendant of the container
     if (
       !container.is(e.target) &&

@@ -257,7 +257,38 @@
             </div>
         </div>
         <div class="mainmenu">
+            <div class="mainmenu__header">
+                <div class="headermain">
+                    <div class="headermain__items">
+                        <div class="headermain__item">
+                            <div class="headerrow">
+                                <div class="headerleft">
+                                    <div class="logo">
+                                        <img src="/img/logo_v5.svg" alt="" class="nbki-logo_mobile">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- /.headerrow -->
+                        </div>
+                        <div class="headermain__item headermain__item_right">
+                            <div class="mobilepanel">
+
+                                <div class="burgermenu burgermenu_mobile">
+                                    <button class="headermain__menu js-menu js-menu_mobile active">
+
+                                        <img src="/img/hamburger2.svg" alt="" class="burgermenu--close "
+                                            style='display: block;'>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.mainmenu__header -->
             <div class="container">
+
                 <div class="mainmenu__content mainmenu__content--desktop">
                     <div class="mainmenu__main mainmenu__cols">
                         <div class="mainmenu__cols ">
@@ -371,64 +402,119 @@
                         </div>
                     </div>
                 </div>
-                <div class="mainmenu__content mainmenu__content--mobile mainmenumob">
-                    <div class="accordmenu">
-                        <div class="accordmenu__title js-accord"><span>Услуги</span></div>
-                        <div class="accordmenu__content">
-                            <ul>
-                                <li><a href="/serviceszaem/pkr/">Узнать кредитный рейтинг</a></li>
-                                <li><a href="/nbki-history/">Получить кредитную историю</a></li>
-                                <li><a href="/serviceszaem/spor/">Оспорить кредитную историю</a></li>
-                                <li><a href="/serviceszaem/historylist/">Справка из ЦККИ</a></li>
-                                <li><a href="/serviceszaem/code/">Действия с кодом субъекта</a></li>
-                                <li><a href="/zashchita-ot-moshennichestva/">Защита от мошенничества</a></li>
-                                <li><a href="/podpiska-na-credithistory/">Подписка на кредитную историю</a></li>
-                            </ul>
-                        </div>
-                    </div><!-- /.accordmenu -->
-                    <div class="accordmenu">
-                        <div class="accordmenu__title js-accord"><span>О компании</span></div>
-                        <div class="accordmenu__content">
-                            <ul class="allmenu__lvl1">
-                                <li><a href="/company/">О бюро</a></li>
-                                <li><a href="/company/documents/">Документы НБКИ</a></li>
-                                <li><a href="/company/rekvizit/">Реквизиты</a></li>
-                            </ul>
-                        </div>
-                    </div><!-- /.accordmenu -->
 
-                    <div class="accordmenu">
-                        <div class="accordmenu__title js-accord"><span>Информация</span></div>
-                        <div class="accordmenu__content">
-                            <ul>
-                                <li><a href="/contacts/">Контакты</a></li>
-                                <li><a href="/company/news/">Новости</a></li>
-                                <li><a href="/press/pressabout/">Пресса о нас</a></li>
-                                <li><a href="/faq/">Вопросы и ответы</a></li>
-                                <li><a href="/poleznaya-informatsiya/">Полезная информация</a></li>
-                            </ul>
+                <div class="mainmenu__tabs pnlymobile">
+                    <div class="tabs" data-tabs="tabs_id">
+                        <div class="tabs__header" data-tabsheader="tabs_id">
+                            <div data-tabsbutton="tabs_id" class="tabs__nav active">
+                                Физлицам
+                            </div>
+                            <div data-tabsbutton="tabs_id" class="tabs__nav">Юрлицам</div>
+                            <div data-tabsbutton="tabs_id" class="tabs__nav">B2B</div>
                         </div>
-                    </div><!-- /.accordmenu -->
-                    <div class="accordmenu">
-                        <div class="accordmenu__title"><a href="//story.nbki.ru" target="_blank">Истории о кредитах</a>
+
+                        <div class="tabs__content active" data-tabscontent="tabs_id">
+
+                            <div class="mainmenu__content mainmenu__content--mobile mainmenumob">
+                                <div class="mainmenu__mobilemenu">
+                                    <ul>
+                                        <li>
+                                            <a href="/pkr/" class="">Узнать кредитный рейтинг</a>
+                                        </li>
+                                        <li>
+                                            <a href="/pkr/" class="">Узнать кредитный рейтинг</a>
+                                        </li>
+                                        <li>
+                                            <a href="/pkr/" class="">Узнать кредитный рейтинг</a>
+                                        </li>
+                                        <li>
+                                            <a href="/pkr/" class="">Узнать кредитный рейтинг</a>
+                                        </li>
+                                        <li>
+                                            <a href="/nbki-history/" class="">Получить кредитную историю</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="/zashchita-ot-moshennichestva/" class="">Защита от
+                                                мошенничества</a>
+                                        </li>
+                                        <li>
+                                            <a href="/podpiska-na-credithistory/" class="">Подписка на кредитную
+                                                историю</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="accordmenu ">
+                                    <div class="accordmenu__title js-accord"><span>Другие услуги</span></div>
+                                    <div class="accordmenu__content">
+                                        <ul class="allmenu__lvl1">
+                                            <li itemprop="name"> <a itemprop="url" href="/spor/">Оспорить кредитную
+                                                    историю</a> </li>
+                                            <li itemprop="name"><a itemprop="url" href="/historylist/">Справка из
+                                                    ЦККИ</a></li>
+                                            <li itemprop="name"><a href="/code/">Действия с кодом субъекта</a></li>
+                                        </ul>
+                                    </div>
+                                </div><!-- /.accordmenu -->
+
+
+                                <div class="accordmenu">
+                                    <div class="accordmenu__title js-accord"><span>О бюро</span></div>
+                                    <div class="accordmenu__content">
+                                        <ul class="allmenu__lvl1">
+                                            <li><a href="/contacts/">О бюро</a></li>
+                                            <li><a href="/company/news/">Новости</a></li>
+                                            <li>
+                                                <a href="/company/documents/" class="">Документы НБКИ</a>
+                                            </li>
+                                            <li>
+                                                <a href="/company/rekvizit/" class="">Реквизиты</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div><!-- /.accordmenu -->
+
+                                <div class="mainmenu__mobilemenu">
+                                    <ul>
+                                        <li>
+                                            <a href="//story.nbki.ru" target="_blank" class='extlink'>Истории о
+                                                кредитах</a>
+                                        </li>
+                                        <li>
+                                            <a href="/calc/" class="">Кредитный калькулятор</a>
+                                        </li>
+                                        <li>
+                                            <a href="/faq/" class="">Вопросы и ответы</a>
+                                        </li>
+                                        <li>
+                                            <a href="/contacts/" class="">Контакты</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+
+                                <div class="mainmenumob__button mainmenumob__button_v5">
+                                    <a href="https://person.nbki.ru/login?utm_source=fl&utm_medium=mainpage&utm_campaign=button&utm_term=lk"
+                                        class="btn_main btn_main_v5" target="_blank">Войти в личный кабинет</a>
+                                </div><!-- /.mainmenumob -->
+
+
+
+                            </div>
+
                         </div>
-                    </div><!-- /.accordmenu -->
 
-
-                    <div class="mainmenumob__button">
-                        <a href="https://person.nbki.ru/login?utm_source=fl&utm_medium=mainpage&utm_campaign=button&utm_term=lk"
-                            class="btn_main btn_main_white" target="_blank">Личный кабинет</a>
-                    </div><!-- /.mainmenumob -->
-
-
-                    <div class="mainmenu__phones ">
-                        <div class="phone"><span>Наш телефон в Москве:</span><a href="tel:84952217837">8 (495)
-                                221-78-37</a>
+                        <div class="tabs__content" data-tabscontent="tabs_id">
+                            <p>Tab 2 content</p>
                         </div>
-                        <div class="phone"><span>Бесплатный звонок:</span><a href="tel:88006006404">8 (800)
-                                600-64-04</a></div>
+
+                        <div class="tabs__content" data-tabscontent="tabs_id">
+                            <p>Tab 3 content</p>
+                        </div>
                     </div>
-                </div>
+                </div><!-- /.mainmenu__tabs -->
+
             </div>
             <div class="mobilemenu">
                 <span class="mobilemenuclose">
