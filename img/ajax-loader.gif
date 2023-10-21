@@ -1,0 +1,41 @@
+<pre>[Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (2002) No such file or directory (400)
+/var/www/nbki/data/www/nbki.ru/bitrix/modules/main/lib/db/mysqliconnection.php:88
+#0: Bitrix\Main\DB\MysqliConnection-&gt;connectInternal()
+	/var/www/nbki/data/www/nbki.ru/bitrix/modules/main/lib/data/connection.php:53
+#1: Bitrix\Main\Data\Connection-&gt;getResource()
+	/var/www/nbki/data/www/nbki.ru/bitrix/modules/main/classes/general/database.php:283
+#2: CAllDatabase-&gt;DoConnect()
+	/var/www/nbki/data/www/nbki.ru/bitrix/modules/main/classes/mysql/database_mysqli.php:78
+#3: CDatabase-&gt;ForSql(string)
+	/var/www/nbki/data/www/nbki.ru/bitrix/modules/main/classes/general/sqlwhere.php:713
+#4: CAllSQLWhere-&gt;addStringFilter(array, boolean, string, string, string)
+	/var/www/nbki/data/www/nbki.ru/bitrix/modules/main/classes/general/sqlwhere.php:376
+#5: CAllSQLWhere-&gt;GetQueryEx(array, array)
+	/var/www/nbki/data/www/nbki.ru/bitrix/modules/main/classes/general/sqlwhere.php:261
+#6: CAllSQLWhere-&gt;GetQuery(array)
+	/var/www/nbki/data/www/nbki.ru/bitrix/modules/main/lib/orm/query/query.php:2210
+#7: Bitrix\Main\ORM\Query\Query-&gt;buildWhere()
+	/var/www/nbki/data/www/nbki.ru/bitrix/modules/main/lib/orm/query/query.php:2440
+#8: Bitrix\Main\ORM\Query\Query-&gt;buildQuery()
+	/var/www/nbki/data/www/nbki.ru/bitrix/modules/main/lib/orm/query/query.php:933
+#9: Bitrix\Main\ORM\Query\Query-&gt;exec()
+	/var/www/nbki/data/www/nbki.ru/bitrix/modules/main/lib/orm/data/datamanager.php:513
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/var/www/nbki/data/www/nbki.ru/bitrix/modules/main/lib/site.php:150
+#11: Bitrix\Main\SiteTable::getByDomain(string, string)
+	/var/www/nbki/data/www/nbki.ru/bitrix/modules/main/lib/httpcontext.php:100
+#12: Bitrix\Main\HttpContext-&gt;initializeCulture(NULL, NULL)
+	/var/www/nbki/data/www/nbki.ru/bitrix/modules/main/include.php:32
+#13: require_once(string)
+	/var/www/nbki/data/www/nbki.ru/bitrix/modules/main/include/prolog_before.php:19
+#14: require_once(string)
+	/var/www/nbki/data/www/nbki.ru/bitrix/modules/main/include/prolog.php:10
+#15: require_once(string)
+	/var/www/nbki/data/www/nbki.ru/bitrix/header.php:1
+#16: require(string)
+	/var/www/nbki/data/www/nbki.ru/404.php:5
+#17: include_once(string)
+	/var/www/nbki/data/www/nbki.ru/bitrix/urlrewrite.php:4
+----------
+</pre>

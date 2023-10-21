@@ -127,7 +127,7 @@
   line-height: 20px; /* 125% */
 }
 .rsgrid__items_v5 .rsservice__main {
-  margin-bottom: 34px;
+  margin-bottom: 20px;
 }
 .rsgrid__items_v5 .rsservice__button {
   position: static;
@@ -367,8 +367,277 @@
 .style_v5 .slick-dots {
   bottom: -60px;
 }
+.rsgrid__item_large {
+  width: 66.66666%;
+}
+.rsblock_v5 .rsgrid__items {
+  margin: 0 -15px;
+}
+.rsblock_v5 .rsgrid__item {
+  padding: 0 15px 0 15px;
+}
+.rsgrid__item_large {
+  margin: 44px 0 0 0;
+}
+.rsgrid__item_type2 {
+  margin: 44px 0 0 0;
+}
+.rsservice__flex {
+  display: flex;
+}
+.rsreview__arrows {
+  top: -60px;
+}
+
+.rsreviewcard {
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(115, 100, 178, 0.1);
+}
+
+.rsgrid__item_large .rsservice__name {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* 120% */
+  letter-spacing: -0.3px;
+  margin-bottom: 20px;
+  height: unset;
+  margin-top: 0;
+}
+.rsgrid__item_large .listblock__text {
+  color: var(--, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.rsgrid__item_large .rsservice__main {
+  margin-right: 38px;
+  height: unset;
+  min-height: unset;
+  max-width: 369px;
+}
+.rsgrid__item_large .rsservice__flex {
+  height: calc(100% - 72px);
+}
+.rsblock {
+  padding-bottom: 64px;
+}
+.rsreview {
+  padding-top: 0;
+}
+.blueblock h2 {
+  color: var(--ffffff, #fff);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.blueblock--app .blueblock__imageright {
+  padding-right: 0;
+}
+.blueblock--app .blueblock__main {
+  width: 447px;
+}
+
+.blueblock--app .blueblock__text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  max-width: 371px;
+}
+.blueblock--app .blueblock__imgsmall {
+  margin-top: 67px;
+}
+.blueblock--app .blueblock__imageright {
+  margin-right: -50px;
+}
+.blueblock--app .blueblock__content.blueblock__content--left {
+  position: static;
+}
+.blueblock--app .blueblock__buttons {
+  position: absolute;
+  bottom: 60px;
+  left: 32px;
+  z-index: 1;
+}
+.questionwrapper {
+  border: none;
+  border-radius: 10px;
+  background: var(--ffffff, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(115, 100, 178, 0.1);
+  margin-bottom: 26px;
+  padding: 32px 32px 32px 32px;
+}
+.accordion__title {
+  padding-top: 0;
+  background-size: initial;
+  background-image: url(/images/expand_more.svg);
+  padding-bottom: 0;
+  background-repeat: no-repeat;
+  background-position: center right 0;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.accordion__title.active {
+  background-image: url(/images/expand_less.svg);
+  background-repeat: no-repeat;
+  background-position: center right 0;
+}
+.accordion__content {
+  padding: 30px 0;
+  width: calc(100% + 64px);
+  padding: 0 64px 0 32px;
+  margin: 0 -32px;
+  margin-top: 32px;
+  padding-top: 32px;
+}
+.accordion__title.active + .accordion__content {
+  border-top: 1px solid #ebebeb;
+}
+.accordion__content p {
+  color: var(--new_grey_type, #252838);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.accordeonblock {
+  padding: 0;
+}
+.accordion__content p {
+  margin: 0;
+}
+.accordeonblock {
+  padding-bottom: 34px;
+}
+
+.mainfooter__links li a {
+  color: var(--ffffff, #fff);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 14px;
+}
+
+.mainfooter__title {
+}
+.mainfooter__left {
+  width: calc(100% - 240px);
+  padding-right: 80px;
+}
+.mainfooter__menublock {
+  width: 100%;
+}
+.footer .phones {
+  margin: 0 0 32px 0;
+}
+.footer .phone {
+  display: block;
+  padding: 0;
+}
+
+.mainfooter__right .mainfooter__nav {
+  padding: 0;
+}
+
+.mainfooter__menu {
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.mainfooter__bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.mainfooter__bottom .mainfooter__title {
+  margin-bottom: 0;
+}
+
+.mainfooter__bottom a {
+  white-space: nowrap;
+}
+
+.footer__main {
+  padding-bottom: 40px;
+}
 
 @media (max-width: 999px) {
+  .footer__main {
+    padding: 29px 0;
+  }
+  .footer__mobilemenublock {
+    margin-bottom: 30px;
+  }
+  .footerbottom__socials {
+    order: -1;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  .questionwrapper {
+    padding: 20px 20px 20px 20px;
+  }
+  .accordion__title {
+    background-position: center right 0;
+  }
+  .accordion__title {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 112.5% */
+    letter-spacing: -0.16px;
+  }
+  .accordion__content {
+    width: calc(100% + 40px);
+    padding: 20px 40px 20px 20px;
+    margin: 0 -20px;
+    margin-top: 20px;
+  }
+  .accordion__content p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  h2.vopros {
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: var(--type-black, #000);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 122.222% */
+    letter-spacing: -0.36px;
+  }
+  .blueblock--app .blueblock__buttons {
+    position: static;
+    display: flex;
+    padding: 0 16px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .blueblock--app .blueblock__main {
+    width: 100%;
+  }
+  .rsblock {
+    margin-bottom: 0;
+    padding-bottom: 32px;
+  }
+  .onlymobile {
+    display: block;
+  }
+  .container {
+    padding: 0 16px;
+  }
+
   .rsblock_v5 {
     padding-bottom: 32px;
     margin-bottom: 0;
@@ -589,5 +858,33 @@
   }
   .rsgrid__items {
     margin: 0 -16px;
+  }
+
+  .rsgrid__item_type2 .rsservice__header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .rsgrid__item_type2 .rsservice__image {
+    height: unset;
+  }
+  .rsgrid__item_type2 .rsservice {
+    min-height: unset;
+  }
+  .rsgrid__item_type2 .rsservice__name {
+    max-width: 173px;
+    margin-left: 20px;
+  }
+  .rsblock_v5 .rsgrid__item.rsgrid__item_type2 {
+    margin: 22px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .blueblock--app .blueblock__wrapper--columns .blueblock__buttons a {
+    margin: 0;
+    max-width: 150px;
+    min-width: 150px;
   }
 }
