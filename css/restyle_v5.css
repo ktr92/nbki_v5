@@ -695,10 +695,181 @@ span.pkrvalue-params_right_score > span {
   line-height: 20px;
 }
 .calccontent__items_v5 .calccontent__item {
-  height: unset;
+  height: 100%;
+  padding-right: 25px;
+}
+.calccontent__items_v5 .cols3 {
+  margin: 0 -10px;
+}
+.calccontent__items_v5 .cols3__col {
+  padding: 0 10px;
+}
+.calccontent__items_v5 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
+.grayblock_v5 h2 {
+  margin-top: 0;
+  margin-bottom: 26px;
+}
+
+.listblock_v5 {
+  border-radius: 10px;
+  background: var(--ffffff, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(115, 100, 178, 0.1);
+}
+
+.listblock_v5 .listblock__green li {
+  background-image: url(/img/check_circle_v5.svg);
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+.listblock_v5 .listblock__red li {
+  background-image: url(/img/cancel_v5.svg);
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+.listblock_v5 .listblock__title {
+  color: var(--type-black, #000);
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.listblock_v5 li {
+  color: #252838;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.defaultcol_2cols .row > div {
+  padding: 0 16px;
+}
+.defaultcol_2cols_v5 li {
+  background-image: none;
+  position: relative;
+  padding-left: 24px;
+  color: #252838;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.defaultcol_2cols_v5 li:before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #aeb5d1;
+  border-radius: 50%;
+  top: 6px;
+  left: 6px;
+}
+.defaultcol_2cols_v5 .listblock__list li:last-child {
+  margin-bottom: 0;
+}
+.grayblock_v5.pb-40 {
+  padding-bottom: 40px;
+}
+
+.blueblock_process_v5 .blueblock__wrapper--columns {
+  padding: 32px 50px;
+}
+.blueblock_process_v5 .blueblock__content--left {
+  width: 596px;
+}
+
+.blueblock_process_v5 h2 {
+  color: var(--ffffff, #fff);
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px; /* 126.667% */
+  letter-spacing: -0.3px;
+  position: absolute;
+  top: 32px;
+  left: 50px;
+}
+.btn_main_white_blue {
+  color: #4563ff;
+}
+.guideslider_v5 .guideslider__left {
+  padding-top: 155px;
+}
+.blueblock_process_v5 .guideslider__container .slick-dots {
+  top: 85px;
+}
+
+.blueblock_process_v5 .guideslider__text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+}
+
+.blueblock_process_v5 .blueblock__main {
+  margin-bottom: 0;
+}
+
+.blueblock_process_v5 .blueblock__wrapper--columns {
+  align-items: unset;
+}
+
+.blueblock_process_v5 .blueblock__buttons {
+  position: absolute;
+  bottom: 42px;
+  left: 50px;
+}
+.blueblock_process_v5 .blueblock__buttons a {
+  height: 52px;
+  line-height: 50px;
+}
+.btn_main_white_v5 {
+  height: 52px !important;
+  line-height: 50px !important;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  min-width: 288px !important;
+}
+.pb-0 {
+  padding-bottom: 0;
+}
+.blueblock_process_v5 .blueblock {
+  border-radius: 16px;
+  overflow: hidden;
+}
+.guideslider_v5 {
+  border-radius: 16px;
+  background: #4563ff;
+  padding: 32px 50px;
+  overflow: hidden;
+}
+.blueblock .guideslider__container .slick-dots:after {
+}
+.guideslider__container.guideslider_v5 {
+  padding-top: 32px;
+}
+.accordeonblock h2 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px; /* 126.667% */
+  letter-spacing: -0.3px;
+  margin-bottom: 26px;
+  margin-top: 0;
+}
 @media (max-width: 999px) {
+  span.pkrvalue-params_right_score > span {
+    padding: 0 4px;
+  }
+
   .mainmenumob__button_v5 {
     position: absolute;
     bottom: 17px;
@@ -1139,6 +1310,19 @@ span.pkrvalue-params_right_score > span {
   }
   .rsblock_v5 .rsgrid__item.rsgrid__item_type2 {
     margin: 22px 0;
+  }
+  .rsmainslider_static {
+    padding-bottom: 16px;
+  }
+  .blueblock_pkr .blueblock__wrapper {
+    padding: 32px 25px;
+  }
+  .blueblock_pkr .blueblock__text_small p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.35px;
   }
 }
 
