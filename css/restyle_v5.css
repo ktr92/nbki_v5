@@ -593,10 +593,115 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
+.mainmenumob__button .link_blue.extlink {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+
+.btn_main_v5border {
+  background: #fff;
+  border: 1px solid #4563ff;
+  color: #4563ff;
+}
+
+.mainmenumob__button a {
+  margin-bottom: 18px;
+}
+.mainmenumob__button a:last-child {
+  margin-bottom: 0;
+}
+
+.rsmainslider_static {
+  padding-bottom: 30px;
+}
+.rsmainslider_static .rsmainslider__wrapper {
+  min-height: 384px;
+}
+
+.rsmainslider__wrapper {
+  border-radius: 10px;
+}
+.pb-40 {
+  padding-bottom: 40px;
+}
+.pkrvalue-params li {
+  margin-bottom: 6px;
+}
+
+.blueblock_pkr h2 {
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.blueblock_pkr .blueblock__text_small p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.btn_main_white_v5 {
+  border-radius: 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.16px;
+  height: 52px;
+  line-height: 50px;
+}
+
+.blueblock_pkr .blueblock__wrapper--columns .blueblock__buttons a {
+  height: 52px;
+  line-height: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  min-width: 288px;
+}
+span.pkrvalue-params_right_score > span {
+  border-radius: 10px;
+  padding: 2px 10px;
+  display: block;
+}
+
+.pkrvalue-params_score {
+  margin-bottom: 32px;
+}
+.blueblock_pkr .blueblock__wrapper--columns .blueblock__main {
+  margin-bottom: 75px;
+}
+.blueblock_pkr .blueblock__wrapper {
+  padding: 62px 32px 59px 32px;
+}
+
+.caclcontent__icon_redbg {
+  background: #ff0029;
+}
+
+.calccontent__items_v5 .caclcontent__icon {
+  margin-bottom: 20px;
+}
+.calccontent__items_v5 .calccontent__text {
+  color: var(--new_grey_type, #252838);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.calccontent__items_v5 .calccontent__item {
+  height: unset;
+}
+
 @media (max-width: 999px) {
   .mainmenumob__button_v5 {
     position: absolute;
-    bottom: 32px;
+    bottom: 17px;
     left: 32px;
     right: 32px;
     width: calc(100% - 64px);
