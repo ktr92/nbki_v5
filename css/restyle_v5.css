@@ -720,12 +720,12 @@ span.pkrvalue-params_right_score > span {
   box-shadow: 0px 4px 4px 0px rgba(115, 100, 178, 0.1);
 }
 
-.listblock_v5 .listblock__green li {
+.list_v5 .listblock__green li {
   background-image: url(/img/check_circle_v5.svg);
   background-position: left top;
   background-repeat: no-repeat;
 }
-.listblock_v5 .listblock__red li {
+.list_v5 .listblock__red li {
   background-image: url(/img/cancel_v5.svg);
   background-position: left top;
   background-repeat: no-repeat;
@@ -738,9 +738,10 @@ span.pkrvalue-params_right_score > span {
   font-weight: 500;
   line-height: 26px;
 }
-.listblock_v5 li {
+.list_v5 li {
   color: #252838;
-
+  min-height: 24px;
+  display: block;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -794,7 +795,7 @@ span.pkrvalue-params_right_score > span {
   line-height: 38px; /* 126.667% */
   letter-spacing: -0.3px;
   position: absolute;
-  top: 32px;
+  top: 10px;
   left: 50px;
 }
 .btn_main_white_blue {
@@ -870,6 +871,102 @@ span.pkrvalue-params_right_score > span {
 }
 .servicecard {
   box-shadow: 0px 4px 4px 0px rgba(115, 100, 178, 0.1);
+}
+
+.infblockv5 {
+  position: absolute;
+  right: 40px;
+  bottom: 32px;
+  border-radius: 10px;
+  border: 1px solid var(--Gray-Border, #cecfda);
+  z-index: 2;
+  padding: 10px;
+  max-width: 355px;
+  display: flex;
+  align-items: center;
+}
+
+.infblockv5__icon {
+  min-width: 24px;
+  max-width: 24px;
+}
+
+.infblockv5__text {
+  margin-left: 10px;
+  color: var(--new_grey_type, #252838);
+  font-family: Formular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+.rsmainslider_static .rsmainslider__buttons {
+  margin-bottom: 0;
+}
+.rsmainslider_static .rsmainslider__wrapper {
+  padding: 32px 40px;
+}
+
+.rsmainslider_ki .rsmainslider__image {
+  margin-top: -30px;
+  right: 40px;
+}
+
+.pb-64 {
+  padding-bottom: 64px;
+}
+.blueblock_ki_v5 .blueblock__wrapper--columns {
+  padding: 40px;
+}
+.blueblock_ki .blueblock__wrapper--columns .blueblock__text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  max-width: 590px;
+  margin-bottom: 0;
+}
+.blueblock_ki_v5.blueblock_ki .blueblock__wrapper--columns .blueblock__text p {
+  margin: 0;
+}
+
+.blueblock_ki .blueblock__wrapper--columns .blueblock__main {
+  margin-bottom: 38px;
+}
+
+.blueblock_ki_v5 {
+  background-image: url(/img/bb_ki_v5.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.cols4 {
+  display: flex;
+  margin: 0 -16px;
+}
+
+.cols4__col {
+  width: 25%;
+  padding: 0 16px;
+}
+.calccontent__item_small {
+  display: flex;
+  padding: 20px;
+}
+.calccontent__item_small .calccontent__text {
+}
+.calccontent__item_small .caclcontent__icon {
+  min-width: 20px;
+  max-width: 20px;
+  height: 20px;
+  margin-right: 16px;
+}
+
+.blueblock_process_v5--ki .guideslider__left {
+  padding-top: 175px;
+  padding-bottom: 30px;
+}
+.blueblock_process_v5--ki .guideslider__container .slick-dots {
+  top: 105px;
 }
 
 @media (max-width: 999px) {
