@@ -2,6 +2,9 @@ $(document).ready(function () {
   $(".contenttoggler").on("click", function (e) {
     $(".hiddenemtro").slideToggle()
   })
+  $(".hiddenemtro__close").on("click", function (e) {
+    $(".hiddenemtro").slideToggle()
+  })
 
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
