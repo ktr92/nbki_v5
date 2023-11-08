@@ -226,7 +226,7 @@ $(document).ready(function () {
     $(".maptooltip_address").show()
   })
 
-  // ховер на верхний текст
+  // ховер на&nbsp;верхний тек&nbsp;ст
   $(".howtabs__passp_1").on("mouseover", function (e) {
     $(".howtabs__passp").addClass("el-inactive ")
     $(this).removeClass("el-inactive")
@@ -238,7 +238,7 @@ $(document).ready(function () {
     $(".howtabs__item2").removeClass("before-inactive ")
   })
 
-  // ховер на нижний текст
+  // ховер на&nbsp;нижний тек&nbsp;ст
   $(".howtabs__passp_2").on("mouseover", function (e) {
     $(".howtabs__passp").addClass("el-inactive ")
     $(this).removeClass("el-inactive")
@@ -250,7 +250,7 @@ $(document).ready(function () {
     $(".howtabs__item2").removeClass("after-inactive ")
   })
 
-  // ховер на картинку 1
+  // ховер на&nbsp;к&nbsp;артинк&nbsp;у 1
   $(".howtabs__item1").on("mouseover", function (e) {
     $(".howtabs__passp").addClass("el-inactive ")
     $(this).addClass("pseudo-inactive")
@@ -263,7 +263,7 @@ $(document).ready(function () {
     $(".howtabs__item2").removeClass("pseudo-inactive")
   })
 
-  // ховер на картинку 2
+  // ховер на&nbsp;к&nbsp;артинк&nbsp;у 2
   $(".howtabs__item2").on("mouseover", function (e) {
     $(".howtabs__passp").addClass("el-inactive ")
     $(this).addClass("pseudo-inactive")
@@ -943,8 +943,8 @@ $(document).ready(function () {
   $(document).on("click", ".js-show-more", function (e) {
     e.preventDefault()
 
-    var targetContainer = $(".js-ajax-content"), //  Контейнер, в котором хранятся элементы
-      url = $(".js-show-more").attr("data-url") //  URL, из которого будем брать элементы
+    var targetContainer = $(".js-ajax-content"), //  к&nbsp;онтейнер, в&nbsp;к&nbsp;отором хранятся элементы
+      url = $(".js-show-more").attr("data-url") //  URL, из&nbsp;к&nbsp;оторого будем брать элементы
 
     if (url !== undefined) {
       $.ajax({
@@ -958,7 +958,7 @@ $(document).ready(function () {
           var elements = $(data).find(".js-ajax-item"), //  Ищем элементы
             pagination = $(data).find(".js-show-more-wrapper") //  Ищем навигацию
 
-          targetContainer.append(elements) //  Добавляем посты в конец контейнера
+          targetContainer.append(elements) //  Добавляем посты в&nbsp;к&nbsp;онец к&nbsp;онтейнера
           pagination.insertAfter(targetContainer) //  добавляем навигацию следом
         },
       })
@@ -968,7 +968,7 @@ $(document).ready(function () {
   $(document).on("click", ".js-load-more", function (e) {
     e.preventDefault()
 
-    var url = $(".js-load-more").attr("data-url") //  URL, из которого будем брать элементы
+    var url = $(".js-load-more").attr("data-url") //  URL, из&nbsp;к&nbsp;оторого будем брать элементы
 
     if (url !== undefined) {
       $.ajax({
@@ -982,7 +982,7 @@ $(document).ready(function () {
           var elements = $(data).find('[data-entity="ajax-content"]'), //  Ищем элементы
             pagination = $(data).find(".js-load-more-wrapper") //  Ищем навигацию
 
-          $('[data-entity="ajax-content"]:last').append(elements) //  Добавляем посты в конец контейнера
+          $('[data-entity="ajax-content"]:last').append(elements) //  Добавляем посты в&nbsp;к&nbsp;онец к&nbsp;онтейнера
           // pagination.insertAfter(targetContainer); //  добавляем навигацию следом
         },
       })

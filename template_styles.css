@@ -3252,7 +3252,7 @@ li.pkrvalue-params_head {
   border: 3px solid #4563ff;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  /* Красный */
+  /* к&nbsp;расный */
   width: 67px;
   height: 67px;
   align-items: center;
@@ -10383,12 +10383,11 @@ ul.faqv2__list {
   max-width: initial;
 }
 @media (min-width: 768px) {
-.totop {
-  display: none !important;
-}
+  .totop {
+    display: none !important;
+  }
 }
 @media (max-width: 767px) {
-  
   .totop {
     background: none;
     border: none;

@@ -2442,7 +2442,7 @@ body.fixed2 {
 
 
 .notchanged .pkrbanks__slide[data-my-slick-attr="2"] .pkrbanks__content:after {
-	content: "Найди самый выгодный банк!";
+	content: "Найди самый выгодный банк&nbsp;!";
 	font-size: 18px;
 	line-height: 22px;
 	color: #7B7794;
@@ -2456,7 +2456,7 @@ body.fixed2 {
 }
 
 .changed .pkrbanks__slide[data-my-slick-attr="3"] .pkrbanks__content:after {
-		content: "Найди самый выгодный банк!";
+		content: "Найди самый выгодный банк&nbsp;!";
 	font-size: 18px;
 	line-height: 22px;
 	color: #7B7794;
@@ -5259,7 +5259,7 @@ button.pageaccordion3__title.active:after {
   font-size: 10px;
   line-height: 12px;
   margin-top: -2px;
-  /* Красный */
+  /* к&nbsp;расный */
 
   color: #ff0029;
 }
