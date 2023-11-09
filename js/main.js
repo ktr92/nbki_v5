@@ -1,6 +1,7 @@
 $(document).ready(function () {
   $(".contenttoggler").on("click", function (e) {
     $(".hiddenemtro").slideToggle()
+    $(this).toggleClass("active")
   })
   $(".hiddenemtro__close").on("click", function (e) {
     $(".hiddenemtro").slideToggle()

@@ -1681,8 +1681,37 @@ span.pkrvalue-params_right_score > span {
 .blockmobile {
   display: none;
 }
+.contenttoggler.active:after {
+  transform: rotate(180deg) translateY(-3px);
+}
 
 @media (max-width: 999px) {
+  .rsmainslider_sub .rsmainslider__text p {
+    text-align: center;
+  }
+  .calccontent__items.calccontent__items_v5 .cols4__col {
+    margin-bottom: 16px;
+  }
+  .calccontent__text_sub br {
+    display: none;
+  }
+  .bannerblock_price_v5 .colorcounts__items {
+    padding: 0;
+  }
+  .blueblock_history.blueblock_history_v5.bannerblock_v5.bannerblock_price_v5.bannerblock_v5_blue.blueblock_report_v5 {
+    padding: 20px;
+  }
+  .bannerblock_price_v5 a.btn_main.btn_main_white {
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.16px !important;
+    height: 52px !important;
+  }
+  .contenttoggler {
+    width: 100%;
+    text-align: left;
+  }
   .servicecard__content {
     display: block;
   }
@@ -2681,8 +2710,19 @@ span.pkrvalue-params_right_score > span {
     background-repeat: no-repeat;
     background-size: 25px;
   }
+  .nbki_v4.wrapperwhite.nbki_v5.about_block1 {
+    margin-bottom: 0;
+  }
+  .pagecontent {
+    margin-bottom: 0;
+  }
 }
-
+.brhide br {
+  display: none;
+}
+.nbki_v4.wrapperwhite.about_block2 {
+  margin-top: 0;
+}
 @media (max-width: 480px) {
   .blueblock__buttons a:last-child {
     margin-top: 10px;
@@ -2958,5 +2998,49 @@ span.pkrvalue-params_right_score > span {
   }
   .nbki_v5.dey_v5 .nbki_v5 .nbki_v4.contentblock p {
     margin: 0;
+  }
+  .sub_how_v5 {
+    padding-bottom: 16px;
+  }
+  .sub_price_v5 {
+    padding-bottom: 32px;
+  }
+  .blueblock_process_v5_sub .guideslider__container.guideslider_v5 {
+    padding: 24px 19px;
+  }
+  .blueblock_process_v5_sub h2 {
+    left: 20px;
+  }
+  .questionwrapper {
+    margin-bottom: 16px;
+  }
+  .blueblock_process_v5_sub .blueblock .giudeslider__title {
+    height: unset;
+    margin-bottom: 30px;
+  }
+  .rsblock_v5 .mainblock__col_small {
+    margin-bottom: 10px;
+  }
+  .mainblock__col.mainblock__col_small.mainblock__col_compact .servicecard {
+    border-radius: 5px;
+  }
+  .brhide br {
+    display: initial;
+  }
+
+  .wrapperwhite.nbki_v5 .nbki_v4.contentblock {
+    margin-bottom: 16px;
+  }
+  .wrapperwhite.nbki_v5 .nbki_v4.contentblock:last-child {
+    margin-bottom: 0;
+  }
+  .wrapperwhite.nbki_v5 .listblock__list {
+    padding-bottom: 0;
+  }
+  .nbki_v4.wrapperwhite.nbki_v5 {
+    padding-bottom: 24px;
+  }
+  .listblock__green li br {
+    display: none;
   }
 }

@@ -95,7 +95,7 @@ $APPLICATION->SetTitle("к&nbsp;од к&nbsp;редитной истории: к
                           <img src="images/corpind2.svg" alt="">
                         </div>
                       </div>
-                      <div class="itemcard__text color_light mb-25 fs-16"> Для аналитик&nbsp;и по к&nbsp;лиентам и&nbsp;передачи сведений в&nbsp;соответствии с&nbsp;218-ФЗ </div>
+                      <div class="itemcard__text color_light mb-25 fs-16"> Для аналитик&nbsp;и по&nbsp;к&nbsp;лиентам и&nbsp;передачи сведений в&nbsp;соответствии с&nbsp;218-ФЗ </div>
                       <div class="itemcard__button">
                         <a href="" class="btn_main w-full">Перейти</a>
                       </div>
